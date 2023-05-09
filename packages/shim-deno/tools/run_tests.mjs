@@ -46,8 +46,6 @@ const testsToSkip = new Set([
   "readableStream", // not implemented
   "readableStreamTextEncoderPipe", // not implemented
   "readFileIsDirectoryErrorCode", // todo(https://github.com/denoland/deno/issues/18629): re-enable
-  "seekStart", // not implemented
-  "seekSyncStart", // not implemented
   "seekCurrent", // not implemented
   "seekStartBigInt", // not implemented
   "seekSyncCurrent", // not implemented

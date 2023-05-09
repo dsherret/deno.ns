@@ -66,6 +66,8 @@ export { resolveDns } from "./functions/resolveDns.js";
 export { Process, run } from "./functions/run.js";
 export type { UnstableRunOptions } from "./functions/run.js";
 export { shutdown } from "./functions/shutdown.js";
+export { seek } from "./functions/seek.js";
+export { seekSync } from "./functions/seekSync.js";
 export { stat } from "./functions/stat.js";
 export { statSync } from "./functions/statSync.js";
 export { symlink } from "./functions/symlink.js";
